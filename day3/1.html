@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <hr>
+    <!--text input-->
+    <label for="">Name : </label>
+    <input type="text" placeholder="Enter your Name" required>
+    <hr>
+    <label for="">Email : </label>
+    <input type="email" placeholder="Enter your Email" required>
+    <hr>
+    <label for="">Password : </label>
+    <input type="password" placeholder="Enter your Password" required>
+    <hr>
+    <label for="">Gender</label><br>
+    <input type="radio" name="Gender" value="male" required>male
+    <input type="radio" name="Gender" value="Female" required>Female
+    <input type="radio" name="Gender" value="Transgender" required>Transgender <br>
+    <hr>
+    <!--the "type" atribute define wha kind of input fiels it is.-->
+    <!--the "name" atribute is used to identifie the dara when the form is submitted .-->
+    <!--the "value" atribute is actual data sent to server. invisible to user. It is only sent when checkbox is selected-->
+    <!--Checkbox-->
+    <label for="">Skills</label><br>
+    <input type="checkbox" name="skills" value="html">HTML
+    <input type="checkbox" name="skills" value="css">CSS
+    <input type="checkbox" name="skills" value="js">javascript
+    <hr><br>
+    <label for="Department">Department</label>
+    <select name="Department" id="Department">
+        <option value="cse">CSE</option>
+        <option value="BCA">BCA</option>
+        <option value="ancs">ANCS</option>
+        <option value="AI">AI</option>
+    </select>
+    <br><br><input type="submit">
+
+</body>
+
+</html>
